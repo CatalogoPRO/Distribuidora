@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="nav">
+
+            <img class="nav__logo" src="assets/imagenes/logo.webp" alt="">
+
+            <h1 class="nav__text">Todo lo que necesitas, al mejor precio</h1>
+
+        </nav>
+
+        <h2 class="header__text">Catálogo 24 Septiembre 2024</h2>
+
+        <img class="header__wave" src="assets/vectores/wave.svg" alt="">
+
+        <img class="header__arrow" src="assets/vectores/arrow.svg" alt="">
+
+    </header>
+
+
+
+    <section class="productos" id="productos">
+
+
+        <h5 class="productos__title">Elige la categoria que estas buscando</h5>
+        <div class="filters">
+
+
+            <button class="filter-btn active" data-filter="all">
+                <img class="cotegoria__icon" src="assets/vectores/iconTODO.svg" alt="">
+                Todo</button>
+
+            <button class="filter-btn" data-filter="category1">
+                <img class="cotegoria__icon" src="assets/vectores/iconLACTEOS.svg" alt="">
+                LACTEOS</button>
+
+            <button class="filter-btn" data-filter="category2">
+                <img class="cotegoria__icon" src="assets/vectores/iconNoPerecedero.svg" alt="">
+                NO PERECEDEROS</button>
+
+            <button class="filter-btn" data-filter="category3">
+                <img class="cotegoria__icon" src="assets/vectores/iconBEBIDAS.svg" alt="">
+                BEBIDAS</button>
+
+            <button class="filter-btn" data-filter="category4">
+                <img class="cotegoria__icon" src="assets/vectores/iconFIAMBRES.svg" alt="">
+                FIAMBRES</button>
+
+            <button class="filter-btn" data-filter="category5">
+                <img class="cotegoria__icon" src="assets/vectores/iconSNACK.svg" alt="">
+                COPETIN</button>
+
+        </div>
+
+        <h5 class="productos__title2">Ó ingresa el nombre del Artículo</h5>
+        <article class="busqueda">
+            <input class="busqueda__input" type="text" id="searchInput" placeholder="¿Qué buscas...?">
+            <ul id="suggestionsList" class="suggestions-list"></ul>
+            <p id="noResultsMessage" class="no-results-message">Lo siento, prueba con otras palabras.</p>
+        </article>
+
+        <div class="products" id="articulos">
+
+            <!-- ---------------------- AUDIO -------------------- -->
+
+
+
+            <div class="product category1">
+
+                <h4 class="producto__title"> Queso Chedar Pouch x3kg</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$14.684,00</h5>
+                </div>
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Queso Cheddar barra por 3kl aprox.</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$7.018,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Queso Cremoso Andrea por 4kl aprox.</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$4.914,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Queso Ralladito Regio 30gr.</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la04.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$264,00</h5>
+                </div>
+                <!-- <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button> -->
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Queso Tybo/Danbo La Paulina (4kg aprox) </h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la05.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$8.087,00</h5>
+                </div>
+                <!-- <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button> -->
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Queso crema La Paulina 290gr</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la06.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$1.154,50</h5>
+                </div>
+                <!-- <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button> -->
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Queso crema La Paulina 4Kg.</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la07.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$18.689,00</h5>
+                </div>
+                <!-- <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button> -->
+
+            </div>
+
+            <div class="product category1">
+
+                <h4 class="producto__title">Leche Larga vida x 1 litro</h4>
+                <img class="producto__img" src="assets/articulos/lacteos/la08.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number"> $1.099,80</h5>
+                </div>
+                <!-- <button class="product__cta">
+                    <img class="whatsapp__icon2" src="assets/vectores/whatsapp_redondo.svg" alt="">
+                    Consultar</button> -->
+
+            </div>
+
+
+
+
+            <!-- ---------------------- Hogar -------------------- -->
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Aceite de Oliva 500cm3 Sol de Arauco</h4>
+                <img class="producto__img" src="assets/articulos/NoPerecederos/np01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$11.036</h5>
+                </div>
+
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Aceite Girasol 900cm3</h4>
+                <img class="producto__img" src="assets/articulos/NoPerecederos/np02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$1.369,87</h5>
+                </div>
+
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Aceite Natura 900cm3</h4>
+                <img class="producto__img" src="assets/articulos/NoPerecederos/np03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$6.959,64</h5>
+                </div>
+
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Aceite Girasol 5 litros</h4>
+                <img class="producto__img" src="assets/articulos/NoPerecederos/np04.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$6.959,64</h5>
+                </div>
+
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Arroz El Japones Largo Fino 00000 x500 gr</h4>
+                <img class="producto__img" src="assets/articulos/NoPerecederos/np05.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$535,80</h5>
+                </div>
+
+
+            </div>
+
+            <div class="product category2">
+
+                <h4 class="producto__title">Azúcar 1Kg.</h4>
+                <img class="producto__img" src="assets/articulos/NoPerecederos/np06.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$614,25</h5>
+                </div>
+
+
+            </div>
+
+
+            <!-- ---------------------- computacion -------------------- -->
+
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Camapri x1Lt</h4>
+                <img class="producto__img" src="assets/articulos/bebidas/co01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$6.727,50</h5>
+                </div>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Cerveza Brahma lata 475ml. X 6 uni.</h4>
+                <img class="producto__img" src="assets/articulos/bebidas/co02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$5.800,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Cerveza Quilmes lata 475ml. X 6 uni.</h4>
+                <img class="producto__img" src="assets/articulos/bebidas/co03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$6.435,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Cinzano Rosso - Bianco</h4>
+                <img class="producto__img" src="assets/articulos/bebidas/co04.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$4.394,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Gaseosa Coca Cola 8x1750cc</h4>
+                <img class="producto__img" src="assets/articulos/bebidas/co05.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$16.561,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category3">
+
+                <h4 class="producto__title">Cerveza Quilmes lata 475ml. X 6 uni.</h4>
+                <img class="producto__img" src="assets/articulos/bebidas/co06.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$1.222,00</h5>
+                </div>
+
+            </div>
+
+
+
+            <!-- ---------------------- Entretenimiento -------------------- -->
+
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Bondiola El Colonial (pieza de 500grs a 1,5kg) </h4>
+                <img class="producto__img" src="assets/articulos/fiambres/fi01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$10.249,50</h5>
+                </div>
+            </div>
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Bondiola El Colonial (pieza de 500grs a 1,5kg) </h4>
+                <img class="producto__img" src="assets/articulos/fiambres/fi02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$8.420,00</h5>
+                </div>
+            </div>
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Salchicas super pancho x 6 unidades</h4>
+                <img class="producto__img" src="assets/articulos/fiambres/fi03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$1.334,00</h5>
+                </div>
+            </div>
+
+            <div class="product category4">
+
+                <h4 class="producto__title">Panceta ahumada Recreo (pieza de 500grs a 1,5kg aprox)</h4>
+                <img class="producto__img" src="assets/articulos/fiambres/fi04.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$8.420,00</h5>
+                </div>
+            </div>
+
+
+
+            <!-- ---------------------- Entretenimiento -------------------- -->
+
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Chizitos 800gr</h4>
+                <img class="producto__img" src="assets/articulos/copetin/co01.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$2.975,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Palitos salados x 1kl</h4>
+                <img class="producto__img" src="assets/articulos/copetin/co02.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$3.639,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Tutucas x 1kl</h4>
+                <img class="producto__img" src="assets/articulos/copetin/co03.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$5.161,00</h5>
+                </div>
+
+            </div>
+
+            <div class="product category5">
+
+                <h4 class="producto__title">Papas fritas x 1kl</h4>
+                <img class="producto__img" src="assets/articulos/copetin/co04.webp" alt="">
+                <div class="precio">
+                    <h5 class="precio__text">Precio:</h5>
+                    <h5 class="precio__number">$3.639,00</h5>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        </div>
+
+        <button class="productos__cta" id="loadMoreAll" style="display:none;">Cargar más</button>
+
+    </section>
+
+    <footer class="footer">
+        <div class="content">
+            <img class="footer__logo" src="assets/imagenes/logo.webp" alt="">
+
+            <div class="social">
+                <h5 class="social__text">Siguenos</h5>
+                <div class="social__icons">
+                    <img class="social__icon" src="assets/vectores/facebook_redondo.svg" alt="">
+                    <img class="social__icon" src="assets/vectores/instagram_redondo.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>
